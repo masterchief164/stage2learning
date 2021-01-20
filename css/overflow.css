@@ -1,0 +1,13 @@
+ol{
+    width: 50px;
+    padding: 10px;
+    margin: 100px auto;
+    background: black;
+    color: green;
+    max-height: 200px;
+    overflow: auto;
+
+}
+body{
+    background: black;
+}
