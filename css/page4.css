@@ -1,0 +1,88 @@
+a:hover{
+    background: black;
+    color: white;
+}
+a:visited{
+    color: purple;
+}
+a:active{
+    color: green;
+}
+body{
+    background: #1efff8;
+}
+#wrapper{
+    margin: 0 auto;
+    background: white;
+    width: 800px;
+    height: 1000px;
+}
+header{
+    padding: 0 0 10px 0;
+}
+#horzNav:hover{
+    display: block;
+    background: black;
+    color: white;
+}
+#para-1{
+    word-spacing: 10px;
+}
+#para-2{
+    word-spacing: 20px;
+    letter-spacing: 10px;
+}
+footer{
+    clear: both;
+    background-color: black;
+    color: white;
+}
+ul{
+    list-style: none;
+    background-color: #f7f7f7;
+    width: 360px;
+    margin: 100px auto;
+}
+ol{
+    list-style-type: lower-latin;
+    list-style-position: outside;
+}
+#para-1:after{
+    content: "@@@@@@@@";
+    background-color: #20CC34;
+}
+#para-1:before{
+    content: "########";
+    color: crimson;
+}
+li:nth-child(2n){
+    background-color: #2A44E1;
+}
+#para-3:first-line{
+    text-transform: uppercase;
+}
+#para-4:first-letter{
+    font-size: 100px;
+}
+p:hover{
+    background: black;
+    color: #20CC34;
+    cursor: pointer;
+    box-shadow: 0 0 10px chocolate;
+    outline: saddlebrown;
+}
+#para-4:hover{
+    text-decoration: underline;
+}
+#para-5:hover{
+    white-space: pre;
+}
+#para-6:hover{
+    white-space: nowrap;
+}
+#ltr{
+    direction: ltr;
+}
+#rtl{
+    direction: rtl;
+}
