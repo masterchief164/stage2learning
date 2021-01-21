@@ -1,0 +1,14 @@
+body {
+    background-image: linear-gradient(to right, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+
+}
+
+#para-1:hover {
+    background-image: url("../sources/goku.jpg");
+}
+
+#para-1 {
+    background: radial-gradient( #F9D423, #FF4E50);
+
+
+}
